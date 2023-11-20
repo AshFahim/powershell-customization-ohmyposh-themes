@@ -13,7 +13,7 @@ First of all you need to install <span style="color:green">**Windows Terminal**<
 <br>
 
 ## 2. Get PowerShell
-Now you need to get  <span style="color:green">**PowerShell**</span>. You can download it from [here](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell) or search it in **Microsoft Store**. Now you will be able yo select it in **Windows Terminal**. You can do it by clicking on the down arrow in the top bar and select **PowerShell**. If you don't see it in the menu simple just restart it. Now you will see something like this:
+Now you need to get  <span style="color:green">**PowerShell**</span>. You can download it from [here](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell) or search it in **Microsoft Store**. Now you will be able yo select it in **Windows Terminal**. You can do it by clicking on the down arrow in the top bar and select **PowerShell**. If you don't see it in the menu, just restart it. Now you will see something like this:
  ![Screenshot of Windows Terminal with PowerShell](/img/wt_1.png)
 <p style="text-align:center">Windows Terminal dropdown menu with PowerShell</p>
 <br>
