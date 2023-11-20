@@ -7,7 +7,7 @@ A lot of people asked me about my windows terminal (Powershell) looks and theme 
 <br>
 
 ## 1. Install Windows Terminal
-First of all you need to install <span style="color:green">**Windows Terminal**</span>. You can download it from [here](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) or search it in **Microsoft Store**. It's built in windows 11. After you install it you can open it and you will see something like this:
+First of all you need to install <span style="color:green">**Windows Terminal**</span>. You can download it from [here](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) or search it in **Microsoft Store**. It's built-in in windows 11. After you install it you can open it and you will see something like this:
 ![Screenshot of Windows Terminal](/img/wt_0.png)
 <p style="text-align:center">Windows Terminal</p>
 <br>
