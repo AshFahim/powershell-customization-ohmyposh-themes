@@ -1,6 +1,6 @@
 # Hi!
 
-A lot of people asked me about my windows terminal (Powershell) looks and theme and how to customize it. Here i will try to give you a detailed description how you can customize your **PowerShell** but you can also use similar methode to your **Zshell** or any **Linux shell**. So let's get started. 
+A lot of people asked me about my windows terminal (Powershell) looks and theme and how to customize it. Here i will try to give you a detailed description how you can customize your **PowerShell** but you can also use similar methods to your **Zshell** or any **Linux shell**. So let's get started. 
 ![Screenshot of customized PowerShell in terminal windows11 with tranparency on.](/img/posh.png)
 <p style="text-align:center">Example of end results</p>
 <br>
