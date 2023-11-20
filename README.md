@@ -37,5 +37,54 @@ Now you need to install <span style="color:green">**Oh My Posh**</span>. You can
 ```powershell 
 winget install JanDeDobbeleer.OhMyPosh
 ```
+Read the Oh My Posh documentation [here](https://ohmyposh.dev/docs/).
+<br>
 
+After this restart Terminal app and edit $profile file. You can open $profile by running this command in your terminal:
+```powershell
+notepad $PROFILE
+```
+if you want to edit in VS Code run this command:
+```powershell
+code $PROFILE
+```
+Edit the $profile file and add this line:
+```
+oh-my-posh --init --shell pwsh --config ~/jandedobbeleer.omp.json | Invoke-Expression
+``` 
+If you want you can use my profile file and just replace it with yours. You can download it from this repo. Your $profile file will be diffrent. change the path and ajust your settings. You can find more information about $profile file [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_profiles?view=powershell-7.1). After changeing $profile file restart your Terminal app. Now you will see something like this:
+ 
+<br>
 
+## 5. Install Oh My Posh Themes 
+Now you need to install <span style="color:green">**Oh My Posh Themes**</span>. You can do it from [here](https://ohmyposh.dev/docs/themes). I added the theme i use in this repo and you can download it from here. You can also create your own theme. You can find more information about themes [here](https://ohmyposh.dev/docs/themes). After you download the theme you want you need to import it. 
+
+## 6. Terminal Icons 
+Now you need to install <span style="color:green">**Terminal Icons**</span>. You can do it by running this command in your terminal:
+```powershell
+Install-Module -Name Terminal-Icons -Repository PSGallery
+```
+Read the Terminal Icons documentation [here]()
+Add this line in your $profile file:
+```powershell
+Import-Module -Name Terminal-Icons
+```
+After this restart Terminal app. Now you will see something like this (your theme will look diffrent):
+![Screenshot of Windows Terminal with PowerShell](/img/wt_4.png)
+
+<br>
+
+## 7. Install PsReadLine
+<span style="color:green">**PsReadLine**</span> is my favourite. It will suggest you commands and autocomplete them depending on your previous commands. You can do it by running this command in your terminal:
+```powershell
+Install-Module -Name PSReadLine -Repository PSGallery -Force
+```
+Read the PsReadLine documentation [here](https://docs.microsoft.com/en-us/powershell/module/psreadline/?view=powershell-7.1).
+Add this line in your $profile file:
+```powershell
+Import-Module -Name PSReadLine
+```
+I will suggest you to go and read a blog by Scott Hanselman about [PsReadLine](https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh). He is one of my favourite internet people. He is a great developer and you can learn a lot from his videos. You can find his videos on [YouTube](https://www.youtube.com/c/shanselman/videos). 
+
+## 8. Terminal Customization
+Windows Terminal is very customizable. You can change the background, the font, the opacity, the color scheme and a lot more. You can find more information about Windows Terminal customization [here](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-appearance). You can also find a lot of themes [here](https://windowsterminalthemes.dev/). You can also create your own theme. You can find more information about themes [here](https://docs.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes). I included my settings.json file in this repo. You can check it for refarence.  
